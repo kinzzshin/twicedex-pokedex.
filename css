@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  background-color: pink;
+  padding: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.carta {
+  background-color: #fff;
+  border: 3px solid #ffb6c1;
+  width: 250px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+.carta-img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.carta-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.carta-title-p {
+  background-color: #ffd1dc;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.carta-title-h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.carta-tipo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carta-tipo1, .carta-tipo2 {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.carta-tipo1 {
+  background-color: #6ed3cf;
+}
+
+.carta-tipo2 {
+  background-color: #9066ff;
+}
